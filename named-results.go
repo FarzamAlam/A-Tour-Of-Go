@@ -1,14 +1,16 @@
-
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func split(num int) (x,y int){
-	x = num /2;
-	y = num - x;
-	return 
+func main() {
+
+	fmt.Println(split(11))
 }
-func main(){
-	fmt.Println(split(10))
+
+func split(sum int) (x, y int) {
+	x = sum / 2
+	y = sum - x
+	return
 }
-	

@@ -1,11 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-var c, python, java bool
+func main() {
+	var a = "String"
+	var b = 10
+	var c = -1.1
+	var d = true
 
-func main(){
-	var i int
-	fmt.Println(c, python, java, i)
+	fmt.Println("a : " + a)
+	fmt.Println("b : " + b)
+	fmt.Println("c : " + c)
+	fmt.Println("d : " + d)
 }
-
